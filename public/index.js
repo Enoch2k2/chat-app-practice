@@ -1,7 +1,7 @@
 // Make connection
 var socket = io.connect('https://chat-app-practice.herokuapp.com');
 
-// inputs
+// inputs  
 
 var message = document.getElementById('message');
 var output = document.getElementById('output');
