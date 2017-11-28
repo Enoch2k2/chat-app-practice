@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('https://chat-app-practice.herokuapp.com');
+var socket = io.connect("https://chat-app-nodejs-practice.herokuapp.com/");
 
 // inputs  
 
