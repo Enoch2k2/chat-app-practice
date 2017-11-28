@@ -17,6 +17,7 @@ div#Chat-Window {
     width: 800px;
     height: 400px;
     border: 1px solid black;
+    overflow: auto;
 }
 
 h1 {
