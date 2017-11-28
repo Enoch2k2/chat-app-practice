@@ -17,6 +17,8 @@ btn.addEventListener('click', function(){
         handle: handle.value
     })
     message.value = ''
+    var chat = document.getElementById('Chat-Window');
+    chat.scrollTop = chat.scrollHeight;
 })
 
 message.addEventListener('keydown', function(){
