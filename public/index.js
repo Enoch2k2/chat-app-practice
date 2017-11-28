@@ -16,6 +16,7 @@ btn.addEventListener('click', function(){
         message: message.value,
         handle: handle.value
     })
+    message.value = ''
 })
 
 message.addEventListener('keydown', function(){
