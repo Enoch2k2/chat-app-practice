@@ -1,5 +1,5 @@
 // Make connection
-var socket = io.connect('http://192.168.0.3:3000');
+var socket = io.connect('https://chat-app-practice.herokuapp.com');
 
 // inputs
 
